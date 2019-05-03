@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" 
+	type="text/css" 
+	href="Styles.css"/>
+
+
+<title>	</title>
+
+
+
+</head>
+
+
+<body id="main">
+<header><h1 id="title"> Survey Form </h1></header>
+
+<div id="outer">
+
+
+
+<p id="description">Give us feedback about the site through this form.</p>
+
+<form id="survey-form" class="grid-container">
+
+<!-- The area to put a name -->
+<article><label id="name-label">	Name:	</label></article>
+<article><input type="text" name="name" id="name" class="Fin" required  placeholder="Enter Your Name Here"></article>
+
+
+<!-- The area to put a email, must be formatted as a ***@***.com -->
+<article><label id="email-label">	Email:	</label></article>
+<article><input type="email" name="email" id= "email" class="Fin" required placeholder="Enter Your Email Here"></article>
+
+<!-- The area to put a number, must only accept numbers , must have min-max attributes-->
+<article><label id="number-label">	Number:	</label></article>
+<article><input type="number" name="number"class="Fin" id="number" required  placeholder="Enter Your Number Here" min="1000000000" max="9999999999"></article>
+
+
+
+<!--  Must have a dropdown ID name dropdown -->
+<article><p></p>Which option best describes Vegeta's pride?</article>
+<article><select id="dropdown" class="Fin">
+<option value="Expected">Expected</option>
+<option value="Warrented">Warrented</option>
+<option value="Allowed">Allowed</option>
+<option value="Not-Warrented">Not Warrented</option>
+<option value="Undeserved">Undeserved</option>
+</select></article>
+
+<!-- Must have a radio button grouped under name attribute -->
+<article>Where would you rank Vegeta among the<br> Z-Fighters?</article>
+<article>
+<ul style="list-style: none;" id="ranks">
+	<li class="radios">
+	<input type="radio" name="rank" value="1">
+	<label>Beats a Pickle</label>
+	</li>
+	
+	
+	<li class="radios">
+	<input type="radio" name="rank" value="2">
+	<label>Better Than a Karrot</label>
+	
+	</li>
+	
+	
+	<li class="radios">
+	<input type="radio" name="rank" value="0">
+	<label>	Basically Yamcha</label>
+	
+	</li>
+	
+</ul>
+</article>
+
+<!-- Must have a checkbox with a value attribute -->
+<article>Which of these would you say describe Vegeta?</article>
+<article class="checkboxes">
+<label for="arrogant" class="checks"> <input id="arrogant" type="checkbox" value="0" class="box"> Arrogant bastard</label>
+<label for="Prideful" class="checks"> <input id="Prideful" type="checkbox" value="1" class="box"> Prideful bastard</label>
+<label for="Prince" class="checks"> <input id="Prince" type="checkbox" value="2" class="box"> Prince</label>
+<label for="Loving" class="checks"> <input id="Loving" type="checkbox" value="3" class="box"> Loving</label>
+<label for="Good" class="checks"> <input id="Good" type="checkbox" value="4" class="box"> Good</label>
+<label for="Evil" class="checks"> <input id="Evil" type="checkbox" value="5" class="box"> Evil</label>
+<label for="Expert Fighter" class="checks"> <input id="Expert Fighter" type="checkbox" value="6" class="box"> Expert Fighter</label>
+<label for="Resilient" class="checks"> <input id="Resilient" type="checkbox" value="7" class="box"> Resilient</label>
+<label for="Strong As Fuck" class="checks"> <input id="Strong As Fuck" type="checkbox" value="8" class="box"> Strong As Fuck</label>
+
+</article>
+
+
+
+<!--  Must have text area for additional comments -->
+<article>Is there any aspects of Vegeta you would like us to cover in the future?</article>
+<article>
+<textarea rows="10" cols="32">Enter comments or suggestions here...</textarea>
+
+
+</article>
+
+<!--  Submit button with id="submit" -->
+
+<button type="submit" value="Submit" id="submit" target="_blank">Submit</button>
+</form>
+
+
+</div>
+
+
+
+<footer>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+
+
+
+
+body{
+	background-color: green;
+	justify-content: center;
+	display:flex;
+	flex-wrap:wrap;
+	position: relative;
+	align-items: center;
+	flex-direction: column;
+}
+
+#outer{
+	background: #ffccaa;
+	width: 70%;
+	display:flex;
+	flex-wrap:wrap;
+	position: relative;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 2%;
+	margin-bottom: 10%;
+	padding-bottom: 200px;
+	min-width: 524px;
+	
+	
+}
+
+label{
+	background-color: white;
+	
+	
+}
+
+article{
+	position: relative;
+	height: auto;
+	width: 250px;
+	
+	background-color: yellow;
+	font-size:24px;
+	text-align: right;
+	
+}
+
+
+
+.grid-container{
+	display: grid;
+	postion: relative;
+	grid-template-columns: auto auto;
+	grid-gap:12px;
+	background-color: orange;
+	height:100%;
+	width:100%;
+	min-width: 524px;
+	max-width: 524px;
+	bottom: 30px;
+	
+	grid-template-areas:
+	"article article"
+	"article article";
+	
+	
+}
+
+#dropdown{
+	width: 98%;
+	height: 50%;
+	font-size: 24px;
+	position: absolute;
+	left: 0%;
+	bottom: 0%;
+	
+	
+	
+}
+
+#ranks{
+	display: grid;
+	width: 85%;
+	left:-40px;
+	top:-16px;
+	position: relative;
+	
+	grid-gap: 5px;
+	grid:initial;
+	
+	
+}
+
+.radios{
+	background-color: black;
+	display: flex;
+	position: relative;
+	width: 110%;
+	left: 0%;
+	font-size: 24px;
+	
+}
+
+.radios input{
+	width: 16px;
+	height: 16px;
+	position: relative;
+	align-self:center;
+	
+}
+.checkboxes {
+	display:grid;
+	position: relative;
+	align-content:start;
+	grid-gap:0px;
+	
+	
+	
+}
+
+
+.checks{ 
+	display:flex;
+	position: relative;
+	background-color: red;
+	
+	
+	
+	
+	
+ } 
+ 
+ #submit{
+ 	display:flex;
+ 	width:100px;
+ 	height: 50px;
+ 	justify-content: center;
+ 	font-size: 24px;
+ 	background-color: purple;
+ 	color: white;
+ 	margin: 20px;
+ 	position: relative;
+ 	left: 75%;
+ 	
+ 	
+ }
+ 
+ .box{
+ 	width: 24px;
+ }
+
+
+
+
+
+#description{
+	text-align: center;
+}
+
+input{
+	width:98%;
+	height:20px;
+	display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
