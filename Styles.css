@@ -1,0 +1,71 @@
+
+#main{
+	
+	
+}
+
+header{
+	color: #ffaaff;
+	text-align: center;
+}
+
+body{
+	background: linear-gradient( 12deg, #ffaa00, #1100ff);
+	height: 1620px;
+	width: 95%;
+	position: relative;
+	align-content: center;
+	font-family:"Arial Black";
+	line-height:155%;
+	
+}
+footer{
+	text-align: center;
+}
+
+#img-div{
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	
+}
+
+#image{
+	
+	height: auto;
+	width: 50%;
+	max-width:1024px;
+	min-width:400px;
+	border-radius:10%;
+
+	
+	
+}
+#img-caption{
+	width: 50%;
+	text-align: center;
+	font-family: "Arial Black";
+	color: #111111;
+}
+
+ol.Vegi{
+	list-style-type: circle;
+	text-align: center;
+	
+}
+
+li{
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+	
+
